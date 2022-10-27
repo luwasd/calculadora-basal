@@ -32,6 +32,7 @@ body {
 }
 .contenido {
     position: relative;
+    padding: 0;
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
@@ -69,9 +70,13 @@ button:active {
     display: none;
 }
 .resultado {
-    color: #310A31;
+    color: #001F54;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
     display: none;
+}
+h2 {
+    font-size: 1.2rem;
+    color: antiquewhite;
 }

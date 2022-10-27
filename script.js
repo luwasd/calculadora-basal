@@ -44,7 +44,6 @@ CALCULAR.addEventListener('click', () => {
 function calcFlujo(peso){
     let resto = peso;
     let flujo = 0;
-    let x = 0;
     if (resto<=10) {
         flujo = resto*100;
     }
@@ -58,7 +57,6 @@ function calcFlujo(peso){
             }
             else {
                 flujo = ((resto*4)+7)/(resto+90);
-                x = flujo;
             }
         }
     }
